@@ -6,7 +6,8 @@
 trigger:
 - dev
 
-pool: local
+pool:
+  name: local
 
 steps:
 - script: echo Hello, world!
